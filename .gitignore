@@ -13,3 +13,5 @@ wheels/
 # ide
 .idea/
 .vscode/
+
+.ipynb_checkpoints/
