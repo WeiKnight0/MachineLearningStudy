@@ -17,14 +17,12 @@ This repository contains a collection of machine learning notebooks, projects, a
     ```
 3. Install the required dependencies:
     ```bash
+   python -m venv venv
+   .\venv\Scripts\activate
     pip install -r requirements.txt
      ```
     or use uv
     ```bash
     uv sync
     ```
-4. Activate the virtual environment:
-    ```bash
-    .\venv\Scripts\activate
-   ```
-5. Explore the notebooks in the `notebooks-chinese/` directory to learn about different machine learning concepts and implementations.
+4. Explore the notebooks in the `notebooks-chinese/` directory to learn about different machine learning concepts and implementations.
