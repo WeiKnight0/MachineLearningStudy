@@ -4,7 +4,7 @@
 
 ### 1. Iris 鸢尾花数据集
 **知识点**：多分类、数据可视化、特征分析
-```python
+```text
 from sklearn.datasets import load_iris
 iris = load_iris()
 # 特征：花萼长度、花萼宽度、花瓣长度、花瓣宽度
@@ -13,7 +13,7 @@ iris = load_iris()
 
 ### 2. Wine 葡萄酒数据集
 **知识点**：多分类、特征缩放、线性判别分析
-```python
+```text
 from sklearn.datasets import load_wine
 wine = load_wine()
 # 特征：13种化学成分
@@ -22,7 +22,7 @@ wine = load_wine()
 
 ### 3. Breast Cancer 乳腺癌数据集
 **知识点**：二分类、特征重要性、模型评估指标
-```python
+```text
 from sklearn.datasets import load_breast_cancer
 cancer = load_breast_cancer()
 # 特征：30个医学特征
@@ -33,7 +33,7 @@ cancer = load_breast_cancer()
 
 ### 4. Boston Housing / California Housing
 **知识点**：回归分析、特征工程、正则化
-```python
+```text
 from sklearn.datasets import fetch_california_housing
 housing = fetch_california_housing()
 # 特征：经度、纬度、房龄、房间数等
@@ -42,7 +42,7 @@ housing = fetch_california_housing()
 
 ### 5. Titanic 泰坦尼克号
 **知识点**：数据清洗、特征编码、生存分析
-```python
+```text
 # 从Kaggle下载
 # 特征：性别、年龄、舱位、登船港口等
 # 目标：是否生存
@@ -50,7 +50,7 @@ housing = fetch_california_housing()
 
 ### 6. Digits 手写数字
 **知识点**：多分类、图像识别、PCA降维
-```python
+```text
 from sklearn.datasets import load_digits
 digits = load_digits()
 # 特征：8x8像素图像
@@ -61,7 +61,7 @@ digits = load_digits()
 
 ### 7. MNIST / Fashion-MNIST
 **知识点**：计算机视觉、神经网络、CNN
-```python
+```text
 from tensorflow.keras.datasets import mnist, fashion_mnist
 # 特征：28x28灰度图像
 # 目标：10类别分类
@@ -69,7 +69,7 @@ from tensorflow.keras.datasets import mnist, fashion_mnist
 
 ### 8. CIFAR-10
 **知识点**：彩色图像分类、CNN、数据增强
-```python
+```text
 from tensorflow.keras.datasets import cifar10
 # 特征：32x32 RGB图像
 # 目标：10种物体（飞机、汽车、鸟等）
@@ -77,7 +77,7 @@ from tensorflow.keras.datasets import cifar10
 
 ### 9. Telco Customer Churn
 **知识点**：客户分析、不平衡数据、业务指标
-```python
+```text
 # 从Kaggle下载
 # 特征：服务类型、合同期限、支付方式等
 # 目标：客户是否流失
@@ -87,7 +87,7 @@ from tensorflow.keras.datasets import cifar10
 
 ### 10. 20 Newsgroups
 **知识点**：文本分类、TF-IDF、词袋模型
-```python
+```text
 from sklearn.datasets import fetch_20newsgroups
 newsgroups = fetch_20newsgroups(subset='train')
 # 特征：新闻文本
@@ -96,7 +96,7 @@ newsgroups = fetch_20newsgroups(subset='train')
 
 ### 11. IMDB Movie Reviews
 **知识点**：情感分析、文本预处理、RNN/LSTM
-```python
+```text
 from tensorflow.keras.datasets import imdb
 # 特征：电影评论文本
 # 目标：正面/负面评价
@@ -104,7 +104,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 12. SMS Spam Collection
 **知识点**：垃圾邮件检测、朴素贝叶斯、NLP基础
-```python
+```text
 # 从UCI机器学习仓库下载
 # 特征：短信文本
 # 目标：垃圾邮件/正常邮件
@@ -114,7 +114,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 13. Retail Analytics
 **知识点**：时间序列分析、客户分群、关联规则
-```python
+```text
 # 在线零售数据集（UCI）
 # 特征：交易时间、产品、数量、价格等
 # 应用：客户行为分析、推荐系统
@@ -122,7 +122,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 14. Credit Card Fraud Detection
 **知识点**：异常检测、不平衡数据处理、隔离森林
-```python
+```text
 # Kaggle信用卡欺诈数据集
 # 特征：交易时间、金额、匿名特征V1-V28
 # 目标：是否为欺诈交易
@@ -130,7 +130,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 15. Airbnb Listings
 **知识点**：数据探索分析、特征工程、价格预测
-```python
+```text
 # 从Inside Airbnb下载
 # 特征：房源信息、位置、评论、价格等
 # 应用：价格预测、房源推荐
@@ -140,7 +140,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 16. MovieLens
 **知识点**：协同过滤、矩阵分解、推荐算法
-```python
+```text
 # 包含用户评分、电影元数据
 # 应用：电影推荐系统
 # 规模：从100k到25m评分不等
@@ -148,7 +148,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 17. Amazon Product Reviews
 **知识点**：情感分析、产品推荐、大规模数据处理
-```python
+```text
 # 包含产品信息、用户评论、评分
 # 应用：产品推荐、评论分析
 ```
@@ -157,7 +157,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 18. COVID-19 Data
 **知识点**：时间序列预测、流行病学建模
-```python
+```text
 # Johns Hopkins大学数据
 # 特征：每日病例数、死亡数、恢复数
 # 应用：疫情趋势预测
@@ -165,7 +165,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 19. NYC Taxi Trip Duration
 **知识点**：回归问题、地理空间分析、特征工程
-```python
+```text
 # Kaggle竞赛数据集
 # 特征：上车位置、时间、乘客数等
 # 目标：行程时间预测
@@ -173,7 +173,7 @@ from tensorflow.keras.datasets import imdb
 
 ### 20. Human Activity Recognition
 **知识点**：时间序列分类、传感器数据处理
-```python
+```text
 # UCI数据集
 # 特征：智能手机传感器数据
 # 目标：识别行走、上楼、下楼等活动
@@ -192,7 +192,7 @@ from tensorflow.keras.datasets import imdb
 ## 🎯 学习路径建议
 
 ### 阶段1：基础掌握（1-2个月）
-```python
+```text
 # 必做项目
 1. Iris → 分类基础
 2. Boston Housing → 回归基础  
@@ -201,7 +201,7 @@ from tensorflow.keras.datasets import imdb
 ```
 
 ### 阶段2：技能提升（2-3个月）
-```python
+```text
 # 核心项目
 1. Customer Churn → 业务分析
 2. MNIST → 神经网络
@@ -210,7 +210,7 @@ from tensorflow.keras.datasets import imdb
 ```
 
 ### 阶段3：实战应用（3-4个月）
-```python
+```text
 # 综合项目
 1. MovieLens → 推荐系统
 2. NYC Taxi → 时间序列和特征工程
@@ -220,7 +220,7 @@ from tensorflow.keras.datasets import imdb
 
 ## 💡 每个数据集的核心知识点总结
 
-```python
+```text
 学习重点 = {
     "分类问题": ["Iris", "Wine", "Breast Cancer", "Titanic", "Digits"],
     "回归问题": ["Boston Housing", "California Housing", "NYC Taxi"],
