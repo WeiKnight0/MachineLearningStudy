@@ -5,6 +5,7 @@ This repository contains a collection of machine learning notebooks, projects, a
 ## Contents
 - **notebooks-chinese/**: A collection of Jupyter notebooks written in Chinese, covering various machine learning topics and algorithms.
 
+**This Repository Uses Python 3.13, instead of Python 3.10. So the labs in `cource_labs` may not be compatible.** 
 
 ## To Get Started
 1. Clone the repository:
